@@ -1,0 +1,9 @@
+/* Add this to your global CSS or Tailwind CSS file */
+
+.cursor_follower {
+    @apply z-[1000] fixed w-[3.3rem] h-[3.3rem] top-0 left-0 bg-gray-500 rounded-full opacity-0 mix-blend-difference pointer-events-none transform -translate-x-1/2 -translate-y-1/2;
+  
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0.4) 90%);
+
+}
+  

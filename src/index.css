@@ -1,0 +1,17 @@
+
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+ 
+
+  @layer base {
+    @font-face {
+      font-family: 'SofiaSans-ExtraBoldItalic';
+      font-style: normal;
+      font-weight: normal;
+      font-display: swap;
+      src: url(/assets/fonts/SofiaSans-ExtraBoldItalic.ttf) format('truetype');
+    }
+  }
